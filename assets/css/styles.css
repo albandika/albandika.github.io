@@ -319,20 +319,20 @@ img {
   z-index: var(--z-back);
 }
 
-.skills__html {
+.skills__figma {
   width: 95%;
 }
 
-.skills__css {
+.skills__uiux {
   width: 85%;
 }
 
-.skills__js {
-  width: 65%;
+.skills__ut {
+  width: 70%;
 }
 
-.skills__ux {
-  width: 85%;
+.skills__htmlcss {
+  width: 45%;
 }
 
 .skills__img {
@@ -424,6 +424,7 @@ img {
   .home__social {
     padding-top: 0;
     padding-bottom: 2.5rem;
+    display: flex;
     flex-direction: row;
     align-self: flex-end;
   }
